@@ -133,3 +133,16 @@ p{
 .current{
     border-bottom: 5px solid rgba(17, 0, 248, 0.568); 
 }
+.dp{
+    position: relative;
+    left: 60rem;
+    top: 10rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+
+.dp:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
