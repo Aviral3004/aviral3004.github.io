@@ -77,7 +77,8 @@
 }
 .icon{
     position:relative;
-    margin-right:100px;
+    margin-right:50px;
+    margin-left:50px;
     top: 300px;
     padding:30px;
     
