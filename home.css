@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: rgb(3, 3, 14);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-family: 'DM Sans', sans-serif;
+    z-index: 5;
+    position: fixed;
+}
+
+#box1, #box2 {
+    display: flex;
+}
+
+#box1 h1{
+    padding: 30px;
+    color:white;
+
+}
+#box1 a{
+    text-decoration:none;
+    color:white;
+    margin: 0 20px;
+    padding:12px;
+}
+
+#box2 {
+    width: 35%;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+#box2 ul li {
+    display: inline;
+    list-style: none;
+    font-size:21px;
+}
+
+#box2 ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: bold;
+    padding:12px;
+}
+
+.banner{
+    position:fixed;
+}
+.banner img{
+    max-width:100%;
+    top:0;
+    left:0;
+}
+.banner .heading{
+    padding:30px;
+    position:absolute;
+    left:100px;
+    top:20%;
+    color:white;
+    font-family: 'DM Sans', sans-serif;
+}
+p{
+    font-size:20px;
+    width:40%;
+    
+}
+.banner h2{
+    font-size:65px;
+}
+#box2 ul li a:hover {
+    background-color: rgba(17, 0, 248, 0.568);
+    transition-duration: 0.5s;
+    color: white;
+    border-radius: 5px 12px;
+}
+#box1 a{
+    text-decoration:none;
+    color:white;
+    margin: 0 20px;
+    padding:5px;
+}
+#box1 h1:hover {
+
+    transform:scale(1.2);
+    transition-duration: 0.5s;
+    color: white;
+    border-radius: 5px 12px;
+}
+
+
+#hobbies1,#hobbies2{
+    background-color:blue;
+    border:none;
+    border-radius:12px;
+    color:white;
+    padding:15px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight:bold;
+    
+}
+#hobbies1:hover {
+    background-color: white;
+    color:blue;
+    transition-duration: 0.5s;
+    cursor:pointer;
+    transform: scale(1.2);
+}
+#hobbies2:hover {
+    background-color: white;
+    color:blue;
+    transition-duration: 0.5s;
+    cursor:pointer;
+    transform: scale(1.2);
+}
+#buttons{
+    display:flex;
+    flex-direction:row;
+}
+.button-1{
+    margin-right: 50px;
+}
+.current{
+    border-bottom: 5px solid rgba(17, 0, 248, 0.568); 
+}
